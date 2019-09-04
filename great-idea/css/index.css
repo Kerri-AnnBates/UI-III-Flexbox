@@ -239,3 +239,10 @@ footer {
 	text-align: center;
 	font-size: 14px;
 }
+
+@media screen and (max-width: 480px) {
+	.offered-services {
+		flex-direction: column;
+		align-items: center;
+	}
+}
