@@ -64,9 +64,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* header */
+
 header {
 	display: flex;
 }
+
 header nav {
 	width: 691px;
 	vertical-align: top;
@@ -97,6 +99,7 @@ header .logo {
 }
 
 /* cta */
+
 .cta {
 	display: flex;
 	justify-content: space-evenly;
@@ -179,6 +182,56 @@ header .logo {
 
 .contact p {
 	margin: 20px 0;
+}
+
+.services-header-img {
+	margin: 20px auto;
+}
+
+.offered-services {
+	margin: 40px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.service-container {
+	border: 1px solid #000;
+	border-radius: 2px;
+	background-color: #ebebeb;
+	padding: 20px;
+	width: 48%;
+	margin: 20px 0;
+}
+
+.service-container a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 5px;
+	border: 1px solid #000;
+	background-color: #fff;
+	color: #000;
+	margin-top: 20px;
+}
+
+.facts {
+	display: flex;
+	justify-content: space-between;
+}
+
+.facts div, .facts img {
+	width: 48%;
+}
+
+.facts ul {
+	list-style-type: square;
+	margin-top: 20px;
+	margin-left: 20px;
+	line-height: 2;
 }
 
 footer {
